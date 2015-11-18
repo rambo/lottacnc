@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# OS X crap
+.DS_Store
