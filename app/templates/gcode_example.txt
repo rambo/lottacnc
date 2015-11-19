@@ -1,0 +1,19 @@
+%
+O0123
+(T1 D=8. - DRILL)
+(T4 D=5. - FLAT END MILL)
+
+(TIMESTAMP)
+
+(BOILERPLATE)
+G90 G94 G17 G40 G80 G21
+G54
+
+(FACE1)
+.
+.
+.
+
+(END)
+M30
+%

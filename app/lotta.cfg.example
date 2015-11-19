@@ -1,0 +1,8 @@
+import serial # for constants, but I'm gonna be so very sorry for this
+
+DEBUG = True
+SERIAL_PORT = "/Users/user/COM1"
+
+# simulate a serial port using:
+# socat PTY,link=$HOME/COM1 PTY,link=$HOME/COM2
+
