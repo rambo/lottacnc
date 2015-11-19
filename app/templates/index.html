@@ -35,19 +35,19 @@ $(document).ready(function() {
             </div>
         </div></div>
         {% endif %}
-        <form method="POST" name="sender">
+        <form role="form" method="POST" name="sender">
             <div class="row">
                 <div class="col-sm-8">
                     <h3>G-code</h3>
                     <p>
-                        <textarea id="gcode" name="gcode" onkeyup="javascript:update_bytes()" onchange="javascript:update_bytes()" onblur="javascript:update_bytes()">{{ gcode }}</textarea>
+                        <textarea class="form-control" id="gcode" name="gcode" onkeyup="javascript:update_bytes()" onchange="javascript:update_bytes()" onblur="javascript:update_bytes()">{{ gcode }}</textarea>
                     </p>
                         <button value="Send" type="submit" data-toggle="tooltip" title="Push me gently!" class="btn btn-success"><span class="glyphicon glyphicon-upload" aria-hidden="true">&nbsp;</span>Send</button>
                     <div id="bytes" class="pull-right">0 bytes</div>
                 </div>
                 <div class="col-sm-4">
                     <h3>Example</h3>
-                    <p><textarea id="example" name="example" readonly>{% include 'gcode_example.txt' %}</textarea></p>
+                    <p><textarea class="form-control" id="example" name="example" readonly>{% include 'gcode_example.txt' %}</textarea></p>
                 </div>
             </div>
         </form>
