@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% block body %}
+<script language="javascript">
+function calculate() {
+  var wcs0 = document.forms[0]['input1'].value;
+  var z = document.forms[0]['input2'].value;
+  var d = document.forms[0]['input3'].value;
+
+  // All of this is ugly as hell, sorry
+  var wcs0_group = $(document.forms[0]['input1']).parent().parent();
+  var z_group = $(document.forms[0]['input2']).parent().parent();
+  var d_group = $(document.forms[0]['input3']).parent().parent();
+  var r_group = $(document.forms[0]['input4']).parent().parent();
+
+  wcs0_group.removeClass("has-success has-warning has-error");
+  z_group.removeClass("has-success has-warning has-error");
+  d_group.removeClass("has-success has-warning has-error");
+  r_group.removeClass("has-success has-warning has-error");
+  
+  if($.isNumeric(wcs0)) {
+    wcs0_group.addClass("has-success");
+  } else if (isNaN(wcs0)) {
+    wcs0_group.addClass("has-error");
+  } else {
+    wcs0_group.addClass("has-warning");
+  }
+
+  if($.isNumeric(z)) {
+    z_group.addClass("has-success");
+  } else if (isNaN(z)) {
+    z_group.addClass("has-error");
+  } else {
+    z_group.addClass("has-warning");
+  }
+
+  if($.isNumeric(d)) {
+    d_group.addClass("has-success");
+  } else if (isNaN(d)) {
+    d_group.addClass("has-error");
+  } else {
+    d_group.addClass("has-warning");
+  }
+
+  wcs0 = wcs0 || document.forms[0]['input1'].placeholder;
+  z = z || document.forms[0]['input2'].placeholder;
+  d = d || document.forms[0]['input3'].placeholder;
+
+  var r = document.forms[0]['input4'].value = ((z - d) - wcs0).toFixed(4);
+  console.log(r);
+
+  if($.isNumeric(r)) {
+    r_group.addClass("has-success");
+  } else if (isNaN(r)) {
+    r_group.addClass("has-error");
+  } else {
+    r_group.addClass("has-warning");
+  }
+}
+
+$(document).ready(function(){calculate()});
+</script>
+<div class="container">
+<div class="page-header">
+  <h1>Tool length offset calculator</h1>
+</div>
+
+<form class="form-horizontal">
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input1">WCS0</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="-300.000" class="form-control" id="input1" onkeyup="calculate()" onblur="calculate()" aria-describedby="input1Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input2">Machine coordinate Z</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="-330.000" class="form-control" id="input2" onkeyup="calculate()" onblur="calculate()" aria-describedby="input2Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input3">Thickness of the measurement thingie</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="5" class="form-control" id="input3" onkeyup="calculate()" onblur="calculate()" aria-describedby="input3Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+      <span class="glyphicon glyphicon-chevron-down" style="font-size: 3em" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-4" for="input4">Tool length offset</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" class="form-control disabled" disabled id="input4" aria-describedby="input4Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+</form>
+</div>
+{% endblock %}
+

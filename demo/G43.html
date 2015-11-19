@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Lotta CNC</title>
+
+	<link href="../app/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../app/static/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<style>
+	html, body { min-height:100%; }
+    .jumbotron {
+      padding: 80px;
+      color: white;
+    }
+    .background {
+      background-image: url(../app/static/img/background.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+      text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    .navbar-github, .navbar-github>li>a {
+      background-color: #08C;
+      color: #FFF !important;
+    }
+
+    body {
+      background: -webkit-linear-gradient(#FFF, #EEE); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#FFF, #EEE); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#FFF, #EEE); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#FFF, #EEE); /* Standard syntax */
+    }
+	
+	</style>
+
+</head>
+<body>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="../app/static/js/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../app/static/js/bootstrap.min.js"></script>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Lotta CNC</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="/">Home</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Helpers <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/G43">Tool length offset</a></li>
+              </ul>
+            </li>
+            <li class="dropdown ">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/help">Internal help</a></li>
+                <li><a href="https://discourse.hacklab.fi/t/cnc-alkeiskurssi-jatkuu-keskiviikkoisin-kello-18-00-labilla/260">Discourse</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">G-code</li>
+                <li><a href="https://en.wikipedia.org/wiki/G-code">Wikipedia</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right navbar-github">
+            <li><a href="https://github.com/tanelikaivola/lottacnc/">Fork me on GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+  <div class="jumbotron background">
+    <h1>Lotta CNC</h1>
+    <p>Think before you run!</p> 
+  </div>
+
+
+<script language="javascript">
+function calculate() {
+  var wcs0 = document.forms[0]['input1'].value;
+  var z = document.forms[0]['input2'].value;
+  var d = document.forms[0]['input3'].value;
+
+  // All of this is ugly as hell, sorry
+  var wcs0_group = $(document.forms[0]['input1']).parent().parent();
+  var z_group = $(document.forms[0]['input2']).parent().parent();
+  var d_group = $(document.forms[0]['input3']).parent().parent();
+  var r_group = $(document.forms[0]['input4']).parent().parent();
+
+  wcs0_group.removeClass("has-success has-warning has-error");
+  z_group.removeClass("has-success has-warning has-error");
+  d_group.removeClass("has-success has-warning has-error");
+  r_group.removeClass("has-success has-warning has-error");
+  
+  if($.isNumeric(wcs0)) {
+    wcs0_group.addClass("has-success");
+  } else if (isNaN(wcs0)) {
+    wcs0_group.addClass("has-error");
+  } else {
+    wcs0_group.addClass("has-warning");
+  }
+
+  if($.isNumeric(z)) {
+    z_group.addClass("has-success");
+  } else if (isNaN(z)) {
+    z_group.addClass("has-error");
+  } else {
+    z_group.addClass("has-warning");
+  }
+
+  if($.isNumeric(d)) {
+    d_group.addClass("has-success");
+  } else if (isNaN(d)) {
+    d_group.addClass("has-error");
+  } else {
+    d_group.addClass("has-warning");
+  }
+
+  wcs0 = wcs0 || document.forms[0]['input1'].placeholder;
+  z = z || document.forms[0]['input2'].placeholder;
+  d = d || document.forms[0]['input3'].placeholder;
+
+  var r = document.forms[0]['input4'].value = ((z - d) - wcs0).toFixed(4);
+  console.log(r);
+
+  if($.isNumeric(r)) {
+    r_group.addClass("has-success");
+  } else if (isNaN(r)) {
+    r_group.addClass("has-error");
+  } else {
+    r_group.addClass("has-warning");
+  }
+}
+
+$(document).ready(function(){calculate()});
+</script>
+<div class="container">
+<div class="page-header">
+  <h1>Tool length offset calculator</h1>
+</div>
+
+<form class="form-horizontal">
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input1">WCS0</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="-300.000" class="form-control" id="input1" onkeyup="calculate()" onblur="calculate()" aria-describedby="input1Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input2">Machine coordinate Z</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="-330.000" class="form-control" id="input2" onkeyup="calculate()" onblur="calculate()" aria-describedby="input2Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group has-warning">
+    <label class="control-label col-sm-4" for="input3">Thickness of the measurement thingie</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" placeholder="5" class="form-control" id="input3" onkeyup="calculate()" onblur="calculate()" aria-describedby="input3Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+      <span class="glyphicon glyphicon-chevron-down" style="font-size: 3em" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-4" for="input4">Tool length offset</label>
+    <div class="col-sm-4 input-group">
+      <input type="text" class="form-control disabled" disabled id="input4" aria-describedby="input4Status">
+      <span class="input-group-addon">mm</span>
+    </div>
+  </div>
+</form>
+</div>
+
+</body>
+</html>

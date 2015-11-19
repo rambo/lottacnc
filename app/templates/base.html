@@ -60,6 +60,12 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="{% if nav=="main" %}active{% endif %}"><a href="/">Home</a></li>
+            <li class="dropdown {% if nav=="helpers" %}active{% endif %}">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Helpers <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/G43">Tool length offset</a></li>
+              </ul>
+            </li>
             <li class="dropdown {% if nav=="guides" %}active{% endif %}">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guides <span class="caret"></span></a>
               <ul class="dropdown-menu">

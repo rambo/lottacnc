@@ -35,3 +35,6 @@ def index():
 def init():
 	return render_template('help.html', nav="guides")
 
+@app.route('/G43')
+def length_compensation():
+	return render_template('length_compensation.html', nav="helpers")
