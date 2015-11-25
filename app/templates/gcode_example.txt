@@ -1,4 +1,4 @@
-%
+( Comment to get past LSK )
 O0123
 (T1 D=8. - DRILL)
 (T4 D=5. - FLAT END MILL)
