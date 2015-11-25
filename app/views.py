@@ -19,6 +19,9 @@ def index():
 
 	# TODO: G-code lint right about here
 
+	if not serialport.getCD():
+		return render_template('index.html', nav="main", gcode=request.form['gcode'], error="Lotta is not ready. Hit PRGM, I/O, Read.")
+
 	try:
 		# TODO: Maybe this should be dynamic and line by line?
 		serialport.write(data)
