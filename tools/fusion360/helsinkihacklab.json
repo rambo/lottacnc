@@ -1,0 +1,1650 @@
+{
+  "data": [
+    {
+      "GRADE": "generic",
+      "last_modified": 1456938438563,
+      "guid": "2004844e-af77-4146-bf9f-5a2ee2422ffe",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "reamer",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.0333333333333333,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 157.07963267949,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 86,
+        "SFDM": 8.5,
+        "NOF": 6,
+        "LCF": 38,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 133,
+        "shoulder-length": 38,
+        "DC": 10
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1452948880372,
+      "guid": "3554f387-422d-4626-bba1-e9a193cdbedd",
+      "reference_guid": "d5631a05-37b5-4150-84f2-1b6c12c2c50d",
+      "product-id": "P28",
+      "type": "chamfer mill",
+      "post-process": {
+        "number": 5,
+        "manual-tool-change": false,
+        "length-offset": 5,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 5
+      },
+      "BMC": "carbide",
+      "vendor": "CTC",
+      "unit": "millimeters",
+      "start-values": {
+        "*": {
+          "f_z": 0.1,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 125.663706143592,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 44,
+        "SFDM": 8,
+        "NOF": 2,
+        "LCF": 22,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 45,
+        "tip-diameter": 0,
+        "OAL": 60,
+        "shoulder-length": 28,
+        "DC": 8
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456936238698,
+      "guid": "9766800a-b6b7-48ea-9e26-344ae4ea9991",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.1,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 157.07963267949,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 70,
+        "SFDM": 10,
+        "NOF": 2,
+        "LCF": 40,
+        "TP": 0,
+        "RE": 5,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 100,
+        "shoulder-length": 50,
+        "DC": 10
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456938031839,
+      "guid": "a0eebaf6-c5b3-4686-8aed-9b82750d7d1f",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "reamer",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.0333333333333333,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 125.663706143592,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 75,
+        "SFDM": 7,
+        "NOF": 6,
+        "LCF": 34,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 118,
+        "shoulder-length": 41,
+        "DC": 8
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456936924247,
+      "guid": "a7f568e2-b2ce-40c7-a355-b742f0b37b5e",
+      "unit": "millimeters",
+      "product-id": "",
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "holder": {
+        "segments": [
+          {
+            "lower-diameter": 22.479,
+            "upper-diameter": 31.877,
+            "height": 2.7178
+          },
+          {
+            "lower-diameter": 31.877,
+            "upper-diameter": 31.877,
+            "height": 14.8844
+          },
+          {
+            "lower-diameter": 31.877,
+            "upper-diameter": 29.845,
+            "height": 1.016
+          },
+          {
+            "lower-diameter": 24.892,
+            "upper-diameter": 24.892,
+            "height": 7.7978
+          },
+          {
+            "lower-diameter": 24.892,
+            "upper-diameter": 31.496,
+            "height": 3.302
+          },
+          {
+            "lower-diameter": 31.496,
+            "upper-diameter": 31.496,
+            "height": 41.783
+          },
+          {
+            "lower-diameter": 31.496,
+            "upper-diameter": 37.592,
+            "height": 3.048
+          },
+          {
+            "lower-diameter": 61,
+            "upper-diameter": 63,
+            "height": 1
+          },
+          {
+            "lower-diameter": 63,
+            "upper-diameter": 63,
+            "height": 4.4
+          },
+          {
+            "lower-diameter": 63,
+            "upper-diameter": 53,
+            "height": 2.887
+          },
+          {
+            "lower-diameter": 53,
+            "upper-diameter": 53,
+            "height": 4.226
+          },
+          {
+            "lower-diameter": 53,
+            "upper-diameter": 63,
+            "height": 2.887
+          },
+          {
+            "lower-diameter": 63,
+            "upper-diameter": 63,
+            "height": 8.6
+          },
+          {
+            "lower-diameter": 63,
+            "upper-diameter": 61,
+            "height": 1
+          },
+          {
+            "lower-diameter": 44.45,
+            "upper-diameter": 44.45,
+            "height": 2
+          }
+        ],
+        "vendor": "",
+        "description": "BT40 - B4C4-0020",
+        "unit": "millimeters",
+        "type": "holder",
+        "product-id": "",
+        "guid": "{3b2e1079-bfea-4d0b-8e84-0c70f11c60e9}"
+      },
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 47.1238898038469,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 21,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 10,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 3,
+        "OAL": 58,
+        "shoulder-length": 15,
+        "DC": 3
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456938717870,
+      "guid": "069e1ea5-a633-4d92-83cd-f1c706e394f1",
+      "unit": "millimeters",
+      "product-id": "WF30-2",
+      "shaft": {
+        "segments": [
+          {
+            "lower-diameter": 2,
+            "upper-diameter": 4,
+            "height": 6
+          }
+        ],
+        "type": "shaft",
+        "guid": "b9ef1399-b140-488f-8505-69a21d648fe7",
+        "unit": "millimeters"
+      },
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "vendor": "SKW",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 31.4159265358979,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 4,
+        "NOF": 3,
+        "LCF": 6,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 2,
+        "OAL": 50,
+        "shoulder-length": 7,
+        "DC": 2
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456938709455,
+      "guid": "077822be-97d2-4d52-8bdd-3dcc6d3b7178",
+      "product-id": "WF30-4",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "SKW",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 62.8318530717959,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 25,
+        "SFDM": 4,
+        "NOF": 3,
+        "LCF": 13,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 4,
+        "OAL": 50,
+        "shoulder-length": 17,
+        "DC": 4
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456938549618,
+      "guid": "8e1a373e-900d-4118-8512-1304f0e71176",
+      "unit": "millimeters",
+      "product-id": "4F-2.5x6",
+      "shaft": {
+        "segments": [
+          {
+            "lower-diameter": 2.5,
+            "upper-diameter": 6,
+            "height": 6
+          }
+        ],
+        "type": "shaft",
+        "guid": "1847601e-a608-4fb5-b5bc-03498f494fde",
+        "unit": "millimeters"
+      },
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "vendor": "Eagle",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 39.2699081698724,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 40,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 8,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 2.5,
+        "OAL": 60,
+        "shoulder-length": 8,
+        "DC": 2.5
+      },
+      "description": "HSS-AL"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939584387,
+      "guid": "8f41bc61-1d17-4e46-a4c6-6a6f417e9115",
+      "product-id": "400R",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "face mill",
+      "unit": "millimeters",
+      "BMC": "carbide",
+      "vendor": "CTC",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 502.654824574367,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 129,
+        "SFDM": 32,
+        "NOF": 3,
+        "LCF": 14,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 32,
+        "OAL": 193,
+        "shoulder-length": 51,
+        "DC": 32
+      },
+      "description": "32-32-200"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456940201363,
+      "guid": "bc535b70-fc25-4463-94cd-3f0dcbcc947e",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "inches",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.001574804,
+          "v_f": 39.3701,
+          "v_f_leadOut": 39.3701,
+          "n_ramp": 5000,
+          "v_f_ramp": 13.1234,
+          "v_f_retract": 13.1234,
+          "v_c": 903.207887907065,
+          "f_n": 0.00262468,
+          "n": 5000,
+          "v_f_plunge": 13.1234,
+          "v_f_leadIn": 39.3701
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 1.85,
+        "SFDM": 0.75,
+        "NOF": 5,
+        "LCF": 1.4,
+        "TP": 0,
+        "RE": 0,
+        "CSP": false,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0.69,
+        "OAL": 2.5,
+        "shoulder-length": 1.4,
+        "DC": 0.69
+      },
+      "description": "Roughing"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939073757,
+      "guid": "d7dbef9c-48a2-47a1-bdff-39856db52c71",
+      "product-id": "2F-R8",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "YJ",
+      "start-values": {
+        "*": {
+          "f_z": 0.1,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333333333333,
+          "v_f_retract": 333.333333333333,
+          "v_c": 251.327412287183,
+          "f_n": 0.0666666666666667,
+          "n": 5000,
+          "v_f_plunge": 333.333333333333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 88,
+        "SFDM": 16,
+        "NOF": 2,
+        "LCF": 32,
+        "TP": 0,
+        "RE": 8,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 142,
+        "shoulder-length": 56,
+        "DC": 16
+      },
+      "description": ""
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456940019296,
+      "guid": "0ad535be-717a-46c5-8efc-867ec601a6d1",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 109.955742875643,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 92,
+        "SFDM": 7,
+        "NOF": 2,
+        "LCF": 54,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 149,
+        "shoulder-length": 78,
+        "DC": 7
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939722152,
+      "guid": "1b244a91-04a2-405a-86a1-1847adea93b5",
+      "product-id": "WF30 8mm",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "SKW",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 125.663706143592,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 8,
+        "NOF": 3,
+        "LCF": 23,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 8,
+        "OAL": 60,
+        "shoulder-length": 23,
+        "DC": 8
+      },
+      "description": "WF30"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939929184,
+      "guid": "28aab820-f472-42a8-bde0-f29fa30c8282",
+      "unit": "millimeters",
+      "product-id": "5x6",
+      "shaft": {
+        "segments": [
+          {
+            "lower-diameter": 6,
+            "upper-diameter": 6,
+            "height": 6
+          }
+        ],
+        "type": "shaft",
+        "guid": "9938f95a-6177-4861-a5f0-5e857b9f2729",
+        "unit": "millimeters"
+      },
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 78.5398163397448,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 14,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 5,
+        "OAL": 60,
+        "shoulder-length": 14,
+        "DC": 5
+      },
+      "description": "5x6"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939673542,
+      "guid": "322c4d60-cfd2-41f6-8472-b1dee48c1180",
+      "product-id": "10x20x80",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 157.07963267949,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 40,
+        "SFDM": 10,
+        "NOF": 3,
+        "LCF": 20,
+        "TP": 0,
+        "RE": 5,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 80,
+        "shoulder-length": 20,
+        "DC": 10
+      },
+      "description": "10x20x80"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456940203194,
+      "guid": "326fc7e6-2619-4d79-8c0b-f8c6f2f505ae",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 125.663706143592,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 104,
+        "SFDM": 8,
+        "NOF": 2,
+        "LCF": 73,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 160,
+        "shoulder-length": 88,
+        "DC": 8
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456940049006,
+      "guid": "3327d90b-c9fd-4b7f-8e09-b180069a3292",
+      "unit": "millimeters",
+      "product-id": "4f-4x6",
+      "shaft": {
+        "segments": [
+          {
+            "lower-diameter": 4,
+            "upper-diameter": 6,
+            "height": 6
+          }
+        ],
+        "type": "shaft",
+        "guid": "22d7c541-e856-48d5-9555-c57323ae9ed7",
+        "unit": "millimeters"
+      },
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "vendor": "Eagle",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 62.8318530717959,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 11,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 4,
+        "OAL": 60,
+        "shoulder-length": 11,
+        "DC": 4
+      },
+      "description": "4f-4x6"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939841381,
+      "guid": "4f23df8a-2155-4625-8944-e83dd62c3988",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 314.159265358979,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 163,
+        "SFDM": 20,
+        "NOF": 2,
+        "LCF": 118,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 240,
+        "shoulder-length": 144,
+        "DC": 20
+      },
+      "description": "MK2"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456940220124,
+      "guid": "50f9a9da-9b4c-432c-b9de-71b1485ffbe1",
+      "unit": "millimeters",
+      "product-id": "4",
+      "shaft": {
+        "segments": [
+          {
+            "lower-diameter": 4,
+            "upper-diameter": 6,
+            "height": 4
+          }
+        ],
+        "type": "shaft",
+        "guid": "9408f317-8ffa-4875-bbcb-5d5a60f1a4cb",
+        "unit": "millimeters"
+      },
+      "type": "flat end mill",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "BMC": "hss",
+      "vendor": "AIA",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 62.8318530717959,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 15,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 4,
+        "OAL": 58,
+        "shoulder-length": 15,
+        "DC": 4
+      },
+      "description": "AIA 4"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456940124904,
+      "guid": "538e0b44-1795-424c-b30c-c8468db11879",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 157.07963267949,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 117,
+        "SFDM": 10,
+        "NOF": 2,
+        "LCF": 69,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 165,
+        "shoulder-length": 91,
+        "DC": 10
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939915844,
+      "guid": "5bf0d3bf-0b5d-4723-bf6a-270de5fa207f",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 282.743338823081,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 160,
+        "SFDM": 18,
+        "NOF": 2,
+        "LCF": 115,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 230,
+        "shoulder-length": 138,
+        "DC": 18
+      },
+      "description": "MK2"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939687438,
+      "guid": "7960210e-5f4d-4357-93bb-f1ef2ef56061",
+      "product-id": "WF880 r6",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "SKW",
+      "start-values": {
+        "*": {
+          "f_z": 0.1,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 188.495559215388,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 45,
+        "SFDM": 12,
+        "NOF": 2,
+        "LCF": 24,
+        "TP": 0,
+        "RE": 6,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 76,
+        "shoulder-length": 35,
+        "DC": 12
+      },
+      "description": "WF880 r6"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939393258,
+      "guid": "8870ff91-4506-4911-b8db-fec04f3b877e",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 235.619449019234,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 140,
+        "SFDM": 15,
+        "NOF": 2,
+        "LCF": 97,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 210,
+        "shoulder-length": 122,
+        "DC": 15
+      },
+      "description": "MK2"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939559434,
+      "guid": "9e1be970-2b10-4d9a-aa51-b37cbc756028",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 125.663706143592,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 96,
+        "SFDM": 8,
+        "NOF": 2,
+        "LCF": 71,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 154,
+        "shoulder-length": 82,
+        "DC": 8
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939733997,
+      "guid": "a4f0eed9-1f1c-4a59-b905-75915918fe4e",
+      "product-id": "HSS-42 8",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "AIA",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 125.663706143592,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 42,
+        "SFDM": 8,
+        "NOF": 4,
+        "LCF": 15,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 8,
+        "OAL": 66,
+        "shoulder-length": 15,
+        "DC": 8
+      },
+      "description": "HSS-42 "
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939644961,
+      "guid": "ae02ce72-28d4-4397-868a-617ef8b0a966",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 94.2477796076938,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 77,
+        "SFDM": 6,
+        "NOF": 2,
+        "LCF": 45,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 137,
+        "shoulder-length": 64,
+        "DC": 6
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "generic",
+      "last_modified": 1456939502341,
+      "guid": "c9f10290-c791-493b-b39a-09eb3cb83915",
+      "product-id": "",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "",
+      "start-values": {
+        "*": {
+          "v_f_leadIn": 0,
+          "v_f": 0,
+          "v_f_leadOut": 0,
+          "n_ramp": 5000,
+          "v_f_ramp": 0,
+          "v_f_retract": 1000,
+          "v_c": 188.495559215388,
+          "f_n": 0.2,
+          "n": 5000,
+          "v_f_plunge": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 118,
+        "tip-length": 0,
+        "LB": 120,
+        "SFDM": 12,
+        "NOF": 2,
+        "LCF": 80,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 0,
+        "OAL": 180,
+        "shoulder-length": 117,
+        "DC": 12
+      },
+      "description": "MK1"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939706538,
+      "guid": "e9f7017b-25f3-45be-9334-aec53342ed86",
+      "product-id": "WF30 10mm",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "SKW",
+      "start-values": {
+        "*": {
+          "f_z": 0.0666666666666667,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 157.07963267949,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 35,
+        "SFDM": 10,
+        "NOF": 3,
+        "LCF": 25,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 10,
+        "OAL": 75,
+        "shoulder-length": 25,
+        "DC": 10
+      },
+      "description": "WF30"
+    },
+    {
+      "GRADE": "Mill Generic",
+      "last_modified": 1456939939582,
+      "guid": "f88438b2-ebc7-4aa2-8090-2e775ae20a1f",
+      "product-id": "5x6",
+      "post-process": {
+        "number": 1,
+        "manual-tool-change": false,
+        "length-offset": 1,
+        "break-control": false,
+        "comment": "",
+        "tool-coolant": "flood",
+        "diameter-offset": 1
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "BMC": "hss",
+      "vendor": "AIA",
+      "start-values": {
+        "*": {
+          "f_z": 0.05,
+          "v_f": 1000,
+          "v_f_leadOut": 1000,
+          "n_ramp": 5000,
+          "v_f_ramp": 333.333,
+          "v_f_retract": 333.333,
+          "v_c": 78.5398163397448,
+          "f_n": 0.0666666,
+          "n": 5000,
+          "v_f_plunge": 333.333,
+          "v_f_leadIn": 1000
+        }
+      },
+      "geometry": {
+        "SIG": 0,
+        "tip-length": 0,
+        "LB": 30,
+        "SFDM": 6,
+        "NOF": 4,
+        "LCF": 16,
+        "TP": 0,
+        "RE": 0,
+        "CSP": true,
+        "tip-offset": 0,
+        "TA": 0,
+        "tip-diameter": 5,
+        "OAL": 60,
+        "shoulder-length": 16,
+        "DC": 5
+      },
+      "description": "5x6"
+    }
+  ],
+  "version": 1
+}
