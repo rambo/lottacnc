@@ -1,1650 +1,2551 @@
 {
   "data": [
     {
-      "GRADE": "generic",
-      "last_modified": 1456938438563,
-      "guid": "2004844e-af77-4146-bf9f-5a2ee2422ffe",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456938438563, 
+      "guid": "2004844e-af77-4146-bf9f-5a2ee2422ffe", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "reamer",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "reamer", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.0333333333333333,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 157.07963267949,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.0333333333333333, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 157.07963267949, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 86,
-        "SFDM": 8.5,
-        "NOF": 6,
-        "LCF": 38,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 133,
-        "shoulder-length": 38,
-        "DC": 10
-      },
+        "CSP": true, 
+        "DC": 10, 
+        "LB": 86, 
+        "LCF": 38, 
+        "NOF": 6, 
+        "OAL": 133, 
+        "RE": 0, 
+        "SFDM": 8.5, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 38, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1452948880372,
-      "guid": "3554f387-422d-4626-bba1-e9a193cdbedd",
-      "reference_guid": "d5631a05-37b5-4150-84f2-1b6c12c2c50d",
-      "product-id": "P28",
-      "type": "chamfer mill",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1452948880372, 
+      "guid": "3554f387-422d-4626-bba1-e9a193cdbedd", 
+      "reference_guid": "d5631a05-37b5-4150-84f2-1b6c12c2c50d", 
+      "product-id": "P28", 
+      "type": "chamfer mill", 
       "post-process": {
-        "number": 5,
-        "manual-tool-change": false,
-        "length-offset": 5,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 5
-      },
-      "BMC": "carbide",
-      "vendor": "CTC",
-      "unit": "millimeters",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 5, 
+        "length-offset": 5, 
+        "manual-tool-change": false, 
+        "number": 5, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "carbide", 
+      "vendor": "CTC", 
+      "unit": "millimeters", 
       "start-values": {
         "*": {
-          "f_z": 0.1,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 125.663706143592,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.1, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 44,
-        "SFDM": 8,
-        "NOF": 2,
-        "LCF": 22,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 45,
-        "tip-diameter": 0,
-        "OAL": 60,
-        "shoulder-length": 28,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 44, 
+        "LCF": 22, 
+        "NOF": 2, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 0, 
+        "TA": 45, 
+        "TP": 0, 
+        "shoulder-length": 28, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456936238698,
-      "guid": "9766800a-b6b7-48ea-9e26-344ae4ea9991",
-      "product-id": "",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456936238698, 
+      "guid": "9766800a-b6b7-48ea-9e26-344ae4ea9991", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "ball end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "ball end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.1,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 157.07963267949,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.1, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 157.07963267949, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 70,
-        "SFDM": 10,
-        "NOF": 2,
-        "LCF": 40,
-        "TP": 0,
-        "RE": 5,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 100,
-        "shoulder-length": 50,
-        "DC": 10
-      },
+        "CSP": true, 
+        "DC": 10, 
+        "LB": 70, 
+        "LCF": 40, 
+        "NOF": 2, 
+        "OAL": 100, 
+        "RE": 5, 
+        "SFDM": 10, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 50, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456938031839,
-      "guid": "a0eebaf6-c5b3-4686-8aed-9b82750d7d1f",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456938031839, 
+      "guid": "a0eebaf6-c5b3-4686-8aed-9b82750d7d1f", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "reamer",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "reamer", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.0333333333333333,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 125.663706143592,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.0333333333333333, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 75,
-        "SFDM": 7,
-        "NOF": 6,
-        "LCF": 34,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 118,
-        "shoulder-length": 41,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 75, 
+        "LCF": 34, 
+        "NOF": 6, 
+        "OAL": 118, 
+        "RE": 0, 
+        "SFDM": 7, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 41, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456936924247,
-      "guid": "a7f568e2-b2ce-40c7-a355-b742f0b37b5e",
-      "unit": "millimeters",
-      "product-id": "",
-      "type": "flat end mill",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456936924247, 
+      "guid": "a7f568e2-b2ce-40c7-a355-b742f0b37b5e", 
+      "unit": "millimeters", 
+      "product-id": "", 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
       "holder": {
+        "description": "BT40 - B4C4-0020", 
+        "guid": "{3b2e1079-bfea-4d0b-8e84-0c70f11c60e9}", 
+        "product-id": "", 
         "segments": [
           {
-            "lower-diameter": 22.479,
-            "upper-diameter": 31.877,
-            "height": 2.7178
-          },
+            "height": 2.7178, 
+            "lower-diameter": 22.479, 
+            "upper-diameter": 31.877
+          }, 
           {
-            "lower-diameter": 31.877,
-            "upper-diameter": 31.877,
-            "height": 14.8844
-          },
+            "height": 14.8844, 
+            "lower-diameter": 31.877, 
+            "upper-diameter": 31.877
+          }, 
           {
-            "lower-diameter": 31.877,
-            "upper-diameter": 29.845,
-            "height": 1.016
-          },
+            "height": 1.016, 
+            "lower-diameter": 31.877, 
+            "upper-diameter": 29.845
+          }, 
           {
-            "lower-diameter": 24.892,
-            "upper-diameter": 24.892,
-            "height": 7.7978
-          },
+            "height": 7.7978, 
+            "lower-diameter": 24.892, 
+            "upper-diameter": 24.892
+          }, 
           {
-            "lower-diameter": 24.892,
-            "upper-diameter": 31.496,
-            "height": 3.302
-          },
+            "height": 3.302, 
+            "lower-diameter": 24.892, 
+            "upper-diameter": 31.496
+          }, 
           {
-            "lower-diameter": 31.496,
-            "upper-diameter": 31.496,
-            "height": 41.783
-          },
+            "height": 41.783, 
+            "lower-diameter": 31.496, 
+            "upper-diameter": 31.496
+          }, 
           {
-            "lower-diameter": 31.496,
-            "upper-diameter": 37.592,
-            "height": 3.048
-          },
+            "height": 3.048, 
+            "lower-diameter": 31.496, 
+            "upper-diameter": 37.592
+          }, 
           {
-            "lower-diameter": 61,
-            "upper-diameter": 63,
-            "height": 1
-          },
+            "height": 1, 
+            "lower-diameter": 61, 
+            "upper-diameter": 63
+          }, 
           {
-            "lower-diameter": 63,
-            "upper-diameter": 63,
-            "height": 4.4
-          },
+            "height": 4.4, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
           {
-            "lower-diameter": 63,
-            "upper-diameter": 53,
-            "height": 2.887
-          },
+            "height": 2.887, 
+            "lower-diameter": 63, 
+            "upper-diameter": 53
+          }, 
           {
-            "lower-diameter": 53,
-            "upper-diameter": 53,
-            "height": 4.226
-          },
+            "height": 4.226, 
+            "lower-diameter": 53, 
+            "upper-diameter": 53
+          }, 
           {
-            "lower-diameter": 53,
-            "upper-diameter": 63,
-            "height": 2.887
-          },
+            "height": 2.887, 
+            "lower-diameter": 53, 
+            "upper-diameter": 63
+          }, 
           {
-            "lower-diameter": 63,
-            "upper-diameter": 63,
-            "height": 8.6
-          },
+            "height": 8.6, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
           {
-            "lower-diameter": 63,
-            "upper-diameter": 61,
-            "height": 1
-          },
+            "height": 1, 
+            "lower-diameter": 63, 
+            "upper-diameter": 61
+          }, 
           {
-            "lower-diameter": 44.45,
-            "upper-diameter": 44.45,
-            "height": 2
+            "height": 2, 
+            "lower-diameter": 44.45, 
+            "upper-diameter": 44.45
           }
-        ],
-        "vendor": "",
-        "description": "BT40 - B4C4-0020",
-        "unit": "millimeters",
-        "type": "holder",
-        "product-id": "",
-        "guid": "{3b2e1079-bfea-4d0b-8e84-0c70f11c60e9}"
-      },
-      "vendor": "",
+        ], 
+        "type": "holder", 
+        "unit": "millimeters", 
+        "vendor": ""
+      }, 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 47.1238898038469,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 47.1238898038469, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 21,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 10,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 3,
-        "OAL": 58,
-        "shoulder-length": 15,
-        "DC": 3
-      },
+        "CSP": true, 
+        "DC": 3, 
+        "LB": 21, 
+        "LCF": 10, 
+        "NOF": 4, 
+        "OAL": 58, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 15, 
+        "tip-diameter": 3, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456938717870,
-      "guid": "069e1ea5-a633-4d92-83cd-f1c706e394f1",
-      "unit": "millimeters",
-      "product-id": "WF30-2",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456938717870, 
+      "guid": "069e1ea5-a633-4d92-83cd-f1c706e394f1", 
+      "unit": "millimeters", 
+      "product-id": "WF30-2", 
       "shaft": {
+        "guid": "b9ef1399-b140-488f-8505-69a21d648fe7", 
         "segments": [
           {
-            "lower-diameter": 2,
-            "upper-diameter": 4,
-            "height": 6
+            "height": 6, 
+            "lower-diameter": 2, 
+            "upper-diameter": 4
           }
-        ],
-        "type": "shaft",
-        "guid": "b9ef1399-b140-488f-8505-69a21d648fe7",
+        ], 
+        "type": "shaft", 
         "unit": "millimeters"
-      },
-      "type": "flat end mill",
+      }, 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
-      "vendor": "SKW",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
+      "vendor": "SKW", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 31.4159265358979,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 31.4159265358979, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 4,
-        "NOF": 3,
-        "LCF": 6,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 2,
-        "OAL": 50,
-        "shoulder-length": 7,
-        "DC": 2
-      },
+        "CSP": true, 
+        "DC": 2, 
+        "LB": 30, 
+        "LCF": 6, 
+        "NOF": 3, 
+        "OAL": 50, 
+        "RE": 0, 
+        "SFDM": 4, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 7, 
+        "tip-diameter": 2, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456938709455,
-      "guid": "077822be-97d2-4d52-8bdd-3dcc6d3b7178",
-      "product-id": "WF30-4",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456938709455, 
+      "guid": "077822be-97d2-4d52-8bdd-3dcc6d3b7178", 
+      "product-id": "WF30-4", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "SKW",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "SKW", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 62.8318530717959,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 62.8318530717959, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 25,
-        "SFDM": 4,
-        "NOF": 3,
-        "LCF": 13,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 4,
-        "OAL": 50,
-        "shoulder-length": 17,
-        "DC": 4
-      },
+        "CSP": true, 
+        "DC": 4, 
+        "LB": 25, 
+        "LCF": 13, 
+        "NOF": 3, 
+        "OAL": 50, 
+        "RE": 0, 
+        "SFDM": 4, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 17, 
+        "tip-diameter": 4, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456938549618,
-      "guid": "8e1a373e-900d-4118-8512-1304f0e71176",
-      "unit": "millimeters",
-      "product-id": "4F-2.5x6",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456938549618, 
+      "guid": "8e1a373e-900d-4118-8512-1304f0e71176", 
+      "unit": "millimeters", 
+      "product-id": "4F-2.5x6", 
       "shaft": {
+        "guid": "1847601e-a608-4fb5-b5bc-03498f494fde", 
         "segments": [
           {
-            "lower-diameter": 2.5,
-            "upper-diameter": 6,
-            "height": 6
+            "height": 6, 
+            "lower-diameter": 2.5, 
+            "upper-diameter": 6
           }
-        ],
-        "type": "shaft",
-        "guid": "1847601e-a608-4fb5-b5bc-03498f494fde",
+        ], 
+        "type": "shaft", 
         "unit": "millimeters"
-      },
-      "type": "flat end mill",
+      }, 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
-      "vendor": "Eagle",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
+      "vendor": "Eagle", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 39.2699081698724,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 39.2699081698724, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 40,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 8,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 2.5,
-        "OAL": 60,
-        "shoulder-length": 8,
-        "DC": 2.5
-      },
+        "CSP": true, 
+        "DC": 2.5, 
+        "LB": 40, 
+        "LCF": 8, 
+        "NOF": 4, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 8, 
+        "tip-diameter": 2.5, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "HSS-AL"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939584387,
-      "guid": "8f41bc61-1d17-4e46-a4c6-6a6f417e9115",
-      "product-id": "400R",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939584387, 
+      "guid": "8f41bc61-1d17-4e46-a4c6-6a6f417e9115", 
+      "product-id": "400R", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "face mill",
-      "unit": "millimeters",
-      "BMC": "carbide",
-      "vendor": "CTC",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "face mill", 
+      "unit": "millimeters", 
+      "BMC": "carbide", 
+      "vendor": "CTC", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 502.654824574367,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 502.654824574367, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 129,
-        "SFDM": 32,
-        "NOF": 3,
-        "LCF": 14,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 32,
-        "OAL": 193,
-        "shoulder-length": 51,
-        "DC": 32
-      },
+        "CSP": true, 
+        "DC": 32, 
+        "LB": 129, 
+        "LCF": 14, 
+        "NOF": 3, 
+        "OAL": 193, 
+        "RE": 0, 
+        "SFDM": 32, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 51, 
+        "tip-diameter": 32, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "32-32-200"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456940201363,
-      "guid": "bc535b70-fc25-4463-94cd-3f0dcbcc947e",
-      "product-id": "",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456940201363, 
+      "guid": "bc535b70-fc25-4463-94cd-3f0dcbcc947e", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "inches",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "inches", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.001574804,
-          "v_f": 39.3701,
-          "v_f_leadOut": 39.3701,
-          "n_ramp": 5000,
-          "v_f_ramp": 13.1234,
-          "v_f_retract": 13.1234,
-          "v_c": 903.207887907065,
-          "f_n": 0.00262468,
-          "n": 5000,
-          "v_f_plunge": 13.1234,
-          "v_f_leadIn": 39.3701
+          "f_n": 0.00262468, 
+          "f_z": 0.001574804, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 903.207887907065, 
+          "v_f": 39.3701, 
+          "v_f_leadIn": 39.3701, 
+          "v_f_leadOut": 39.3701, 
+          "v_f_plunge": 13.1234, 
+          "v_f_ramp": 13.1234, 
+          "v_f_retract": 13.1234
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 1.85,
-        "SFDM": 0.75,
-        "NOF": 5,
-        "LCF": 1.4,
-        "TP": 0,
-        "RE": 0,
-        "CSP": false,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0.69,
-        "OAL": 2.5,
-        "shoulder-length": 1.4,
-        "DC": 0.69
-      },
+        "CSP": false, 
+        "DC": 0.69, 
+        "LB": 1.85, 
+        "LCF": 1.4, 
+        "NOF": 5, 
+        "OAL": 2.5, 
+        "RE": 0, 
+        "SFDM": 0.75, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 1.4, 
+        "tip-diameter": 0.69, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "Roughing"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939073757,
-      "guid": "d7dbef9c-48a2-47a1-bdff-39856db52c71",
-      "product-id": "2F-R8",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939073757, 
+      "guid": "d7dbef9c-48a2-47a1-bdff-39856db52c71", 
+      "product-id": "2F-R8", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "ball end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "YJ",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "ball end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "YJ", 
       "start-values": {
         "*": {
-          "f_z": 0.1,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333333333333,
-          "v_f_retract": 333.333333333333,
-          "v_c": 251.327412287183,
-          "f_n": 0.0666666666666667,
-          "n": 5000,
-          "v_f_plunge": 333.333333333333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666666666667, 
+          "f_z": 0.1, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 251.327412287183, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333333333333, 
+          "v_f_ramp": 333.333333333333, 
+          "v_f_retract": 333.333333333333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 88,
-        "SFDM": 16,
-        "NOF": 2,
-        "LCF": 32,
-        "TP": 0,
-        "RE": 8,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 142,
-        "shoulder-length": 56,
-        "DC": 16
-      },
+        "CSP": true, 
+        "DC": 16, 
+        "LB": 88, 
+        "LCF": 32, 
+        "NOF": 2, 
+        "OAL": 142, 
+        "RE": 8, 
+        "SFDM": 16, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 56, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": ""
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456940019296,
-      "guid": "0ad535be-717a-46c5-8efc-867ec601a6d1",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456940019296, 
+      "guid": "0ad535be-717a-46c5-8efc-867ec601a6d1", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 109.955742875643,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 109.955742875643, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 92,
-        "SFDM": 7,
-        "NOF": 2,
-        "LCF": 54,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 149,
-        "shoulder-length": 78,
-        "DC": 7
-      },
+        "CSP": true, 
+        "DC": 7, 
+        "LB": 92, 
+        "LCF": 54, 
+        "NOF": 2, 
+        "OAL": 149, 
+        "RE": 0, 
+        "SFDM": 7, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 78, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939722152,
-      "guid": "1b244a91-04a2-405a-86a1-1847adea93b5",
-      "product-id": "WF30 8mm",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939722152, 
+      "guid": "1b244a91-04a2-405a-86a1-1847adea93b5", 
+      "product-id": "WF30 8mm", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "SKW",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "SKW", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 125.663706143592,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 8,
-        "NOF": 3,
-        "LCF": 23,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 8,
-        "OAL": 60,
-        "shoulder-length": 23,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 30, 
+        "LCF": 23, 
+        "NOF": 3, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 23, 
+        "tip-diameter": 8, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "WF30"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939929184,
-      "guid": "28aab820-f472-42a8-bde0-f29fa30c8282",
-      "unit": "millimeters",
-      "product-id": "5x6",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939929184, 
+      "guid": "28aab820-f472-42a8-bde0-f29fa30c8282", 
+      "unit": "millimeters", 
+      "product-id": "5x6", 
       "shaft": {
+        "guid": "9938f95a-6177-4861-a5f0-5e857b9f2729", 
         "segments": [
           {
-            "lower-diameter": 6,
-            "upper-diameter": 6,
-            "height": 6
+            "height": 6, 
+            "lower-diameter": 6, 
+            "upper-diameter": 6
           }
-        ],
-        "type": "shaft",
-        "guid": "9938f95a-6177-4861-a5f0-5e857b9f2729",
+        ], 
+        "type": "shaft", 
         "unit": "millimeters"
-      },
-      "type": "flat end mill",
+      }, 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 78.5398163397448,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 78.5398163397448, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 14,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 5,
-        "OAL": 60,
-        "shoulder-length": 14,
-        "DC": 5
-      },
+        "CSP": true, 
+        "DC": 5, 
+        "LB": 30, 
+        "LCF": 14, 
+        "NOF": 4, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 14, 
+        "tip-diameter": 5, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "5x6"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939673542,
-      "guid": "322c4d60-cfd2-41f6-8472-b1dee48c1180",
-      "product-id": "10x20x80",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939673542, 
+      "guid": "322c4d60-cfd2-41f6-8472-b1dee48c1180", 
+      "product-id": "10x20x80", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "ball end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "ball end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 157.07963267949,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 157.07963267949, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 40,
-        "SFDM": 10,
-        "NOF": 3,
-        "LCF": 20,
-        "TP": 0,
-        "RE": 5,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 80,
-        "shoulder-length": 20,
-        "DC": 10
-      },
+        "CSP": true, 
+        "DC": 10, 
+        "LB": 40, 
+        "LCF": 20, 
+        "NOF": 3, 
+        "OAL": 80, 
+        "RE": 5, 
+        "SFDM": 10, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 20, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "10x20x80"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456940203194,
-      "guid": "326fc7e6-2619-4d79-8c0b-f8c6f2f505ae",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456940203194, 
+      "guid": "326fc7e6-2619-4d79-8c0b-f8c6f2f505ae", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 125.663706143592,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 104,
-        "SFDM": 8,
-        "NOF": 2,
-        "LCF": 73,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 160,
-        "shoulder-length": 88,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 104, 
+        "LCF": 73, 
+        "NOF": 2, 
+        "OAL": 160, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 88, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456940049006,
-      "guid": "3327d90b-c9fd-4b7f-8e09-b180069a3292",
-      "unit": "millimeters",
-      "product-id": "4f-4x6",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456940049006, 
+      "guid": "3327d90b-c9fd-4b7f-8e09-b180069a3292", 
+      "unit": "millimeters", 
+      "product-id": "4f-4x6", 
       "shaft": {
+        "guid": "22d7c541-e856-48d5-9555-c57323ae9ed7", 
         "segments": [
           {
-            "lower-diameter": 4,
-            "upper-diameter": 6,
-            "height": 6
+            "height": 6, 
+            "lower-diameter": 4, 
+            "upper-diameter": 6
           }
-        ],
-        "type": "shaft",
-        "guid": "22d7c541-e856-48d5-9555-c57323ae9ed7",
+        ], 
+        "type": "shaft", 
         "unit": "millimeters"
-      },
-      "type": "flat end mill",
+      }, 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
-      "vendor": "Eagle",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
+      "vendor": "Eagle", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 62.8318530717959,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 62.8318530717959, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 11,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 4,
-        "OAL": 60,
-        "shoulder-length": 11,
-        "DC": 4
-      },
+        "CSP": true, 
+        "DC": 4, 
+        "LB": 30, 
+        "LCF": 11, 
+        "NOF": 4, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 11, 
+        "tip-diameter": 4, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "4f-4x6"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939841381,
-      "guid": "4f23df8a-2155-4625-8944-e83dd62c3988",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939841381, 
+      "guid": "4f23df8a-2155-4625-8944-e83dd62c3988", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 314.159265358979,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 314.159265358979, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 163,
-        "SFDM": 20,
-        "NOF": 2,
-        "LCF": 118,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 240,
-        "shoulder-length": 144,
-        "DC": 20
-      },
+        "CSP": true, 
+        "DC": 20, 
+        "LB": 163, 
+        "LCF": 118, 
+        "NOF": 2, 
+        "OAL": 240, 
+        "RE": 0, 
+        "SFDM": 20, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 144, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK2"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456940220124,
-      "guid": "50f9a9da-9b4c-432c-b9de-71b1485ffbe1",
-      "unit": "millimeters",
-      "product-id": "4",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456940220124, 
+      "guid": "50f9a9da-9b4c-432c-b9de-71b1485ffbe1", 
+      "unit": "millimeters", 
+      "product-id": "4", 
       "shaft": {
+        "guid": "9408f317-8ffa-4875-bbcb-5d5a60f1a4cb", 
         "segments": [
           {
-            "lower-diameter": 4,
-            "upper-diameter": 6,
-            "height": 4
+            "height": 4, 
+            "lower-diameter": 4, 
+            "upper-diameter": 6
           }
-        ],
-        "type": "shaft",
-        "guid": "9408f317-8ffa-4875-bbcb-5d5a60f1a4cb",
+        ], 
+        "type": "shaft", 
         "unit": "millimeters"
-      },
-      "type": "flat end mill",
+      }, 
+      "type": "flat end mill", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "BMC": "hss",
-      "vendor": "AIA",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "BMC": "hss", 
+      "vendor": "AIA", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 62.8318530717959,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 62.8318530717959, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 15,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 4,
-        "OAL": 58,
-        "shoulder-length": 15,
-        "DC": 4
-      },
+        "CSP": true, 
+        "DC": 4, 
+        "LB": 30, 
+        "LCF": 15, 
+        "NOF": 4, 
+        "OAL": 58, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 15, 
+        "tip-diameter": 4, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "AIA 4"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456940124904,
-      "guid": "538e0b44-1795-424c-b30c-c8468db11879",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456940124904, 
+      "guid": "538e0b44-1795-424c-b30c-c8468db11879", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 157.07963267949,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 157.07963267949, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 117,
-        "SFDM": 10,
-        "NOF": 2,
-        "LCF": 69,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 165,
-        "shoulder-length": 91,
-        "DC": 10
-      },
+        "CSP": true, 
+        "DC": 10, 
+        "LB": 117, 
+        "LCF": 69, 
+        "NOF": 2, 
+        "OAL": 165, 
+        "RE": 0, 
+        "SFDM": 10, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 91, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939915844,
-      "guid": "5bf0d3bf-0b5d-4723-bf6a-270de5fa207f",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939915844, 
+      "guid": "5bf0d3bf-0b5d-4723-bf6a-270de5fa207f", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 282.743338823081,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 282.743338823081, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 160,
-        "SFDM": 18,
-        "NOF": 2,
-        "LCF": 115,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 230,
-        "shoulder-length": 138,
-        "DC": 18
-      },
+        "CSP": true, 
+        "DC": 18, 
+        "LB": 160, 
+        "LCF": 115, 
+        "NOF": 2, 
+        "OAL": 230, 
+        "RE": 0, 
+        "SFDM": 18, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 138, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK2"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939687438,
-      "guid": "7960210e-5f4d-4357-93bb-f1ef2ef56061",
-      "product-id": "WF880 r6",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939687438, 
+      "guid": "7960210e-5f4d-4357-93bb-f1ef2ef56061", 
+      "product-id": "WF880 r6", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "ball end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "SKW",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "ball end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "SKW", 
       "start-values": {
         "*": {
-          "f_z": 0.1,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 188.495559215388,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.1, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 188.495559215388, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 45,
-        "SFDM": 12,
-        "NOF": 2,
-        "LCF": 24,
-        "TP": 0,
-        "RE": 6,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 76,
-        "shoulder-length": 35,
-        "DC": 12
-      },
+        "CSP": true, 
+        "DC": 12, 
+        "LB": 45, 
+        "LCF": 24, 
+        "NOF": 2, 
+        "OAL": 76, 
+        "RE": 6, 
+        "SFDM": 12, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 35, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "WF880 r6"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939393258,
-      "guid": "8870ff91-4506-4911-b8db-fec04f3b877e",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939393258, 
+      "guid": "8870ff91-4506-4911-b8db-fec04f3b877e", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 235.619449019234,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 235.619449019234, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 140,
-        "SFDM": 15,
-        "NOF": 2,
-        "LCF": 97,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 210,
-        "shoulder-length": 122,
-        "DC": 15
-      },
+        "CSP": true, 
+        "DC": 15, 
+        "LB": 140, 
+        "LCF": 97, 
+        "NOF": 2, 
+        "OAL": 210, 
+        "RE": 0, 
+        "SFDM": 15, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 122, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK2"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939559434,
-      "guid": "9e1be970-2b10-4d9a-aa51-b37cbc756028",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939559434, 
+      "guid": "9e1be970-2b10-4d9a-aa51-b37cbc756028", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 125.663706143592,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 96,
-        "SFDM": 8,
-        "NOF": 2,
-        "LCF": 71,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 154,
-        "shoulder-length": 82,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 96, 
+        "LCF": 71, 
+        "NOF": 2, 
+        "OAL": 154, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 82, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939733997,
-      "guid": "a4f0eed9-1f1c-4a59-b905-75915918fe4e",
-      "product-id": "HSS-42 8",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939733997, 
+      "guid": "a4f0eed9-1f1c-4a59-b905-75915918fe4e", 
+      "product-id": "HSS-42 8", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "AIA",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "AIA", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 125.663706143592,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 42,
-        "SFDM": 8,
-        "NOF": 4,
-        "LCF": 15,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 8,
-        "OAL": 66,
-        "shoulder-length": 15,
-        "DC": 8
-      },
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 42, 
+        "LCF": 15, 
+        "NOF": 4, 
+        "OAL": 66, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 15, 
+        "tip-diameter": 8, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "HSS-42 "
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939644961,
-      "guid": "ae02ce72-28d4-4397-868a-617ef8b0a966",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939644961, 
+      "guid": "ae02ce72-28d4-4397-868a-617ef8b0a966", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 94.2477796076938,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 94.2477796076938, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 77,
-        "SFDM": 6,
-        "NOF": 2,
-        "LCF": 45,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 137,
-        "shoulder-length": 64,
-        "DC": 6
-      },
+        "CSP": true, 
+        "DC": 6, 
+        "LB": 77, 
+        "LCF": 45, 
+        "NOF": 2, 
+        "OAL": 137, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 64, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "generic",
-      "last_modified": 1456939502341,
-      "guid": "c9f10290-c791-493b-b39a-09eb3cb83915",
-      "product-id": "",
+      "GRADE": "generic", 
+      "last_modified": 1456939502341, 
+      "guid": "c9f10290-c791-493b-b39a-09eb3cb83915", 
+      "product-id": "", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "drill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "drill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "", 
       "start-values": {
         "*": {
-          "v_f_leadIn": 0,
-          "v_f": 0,
-          "v_f_leadOut": 0,
-          "n_ramp": 5000,
-          "v_f_ramp": 0,
-          "v_f_retract": 1000,
-          "v_c": 188.495559215388,
-          "f_n": 0.2,
-          "n": 5000,
-          "v_f_plunge": 1000
+          "f_n": 0.2, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 188.495559215388, 
+          "v_f": 0, 
+          "v_f_leadIn": 0, 
+          "v_f_leadOut": 0, 
+          "v_f_plunge": 1000, 
+          "v_f_ramp": 0, 
+          "v_f_retract": 1000
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 118,
-        "tip-length": 0,
-        "LB": 120,
-        "SFDM": 12,
-        "NOF": 2,
-        "LCF": 80,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 0,
-        "OAL": 180,
-        "shoulder-length": 117,
-        "DC": 12
-      },
+        "CSP": true, 
+        "DC": 12, 
+        "LB": 120, 
+        "LCF": 80, 
+        "NOF": 2, 
+        "OAL": 180, 
+        "RE": 0, 
+        "SFDM": 12, 
+        "SIG": 118, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 117, 
+        "tip-diameter": 0, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "MK1"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939706538,
-      "guid": "e9f7017b-25f3-45be-9334-aec53342ed86",
-      "product-id": "WF30 10mm",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939706538, 
+      "guid": "e9f7017b-25f3-45be-9334-aec53342ed86", 
+      "product-id": "WF30 10mm", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "SKW",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "SKW", 
       "start-values": {
         "*": {
-          "f_z": 0.0666666666666667,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 157.07963267949,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.0666666666666667, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 157.07963267949, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 35,
-        "SFDM": 10,
-        "NOF": 3,
-        "LCF": 25,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 10,
-        "OAL": 75,
-        "shoulder-length": 25,
-        "DC": 10
-      },
+        "CSP": true, 
+        "DC": 10, 
+        "LB": 35, 
+        "LCF": 25, 
+        "NOF": 3, 
+        "OAL": 75, 
+        "RE": 0, 
+        "SFDM": 10, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 25, 
+        "tip-diameter": 10, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "WF30"
-    },
+    }, 
     {
-      "GRADE": "Mill Generic",
-      "last_modified": 1456939939582,
-      "guid": "f88438b2-ebc7-4aa2-8090-2e775ae20a1f",
-      "product-id": "5x6",
+      "GRADE": "Mill Generic", 
+      "last_modified": 1456939939582, 
+      "guid": "f88438b2-ebc7-4aa2-8090-2e775ae20a1f", 
+      "product-id": "5x6", 
       "post-process": {
-        "number": 1,
-        "manual-tool-change": false,
-        "length-offset": 1,
-        "break-control": false,
-        "comment": "",
-        "tool-coolant": "flood",
-        "diameter-offset": 1
-      },
-      "type": "flat end mill",
-      "unit": "millimeters",
-      "BMC": "hss",
-      "vendor": "AIA",
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "BMC": "hss", 
+      "vendor": "AIA", 
       "start-values": {
         "*": {
-          "f_z": 0.05,
-          "v_f": 1000,
-          "v_f_leadOut": 1000,
-          "n_ramp": 5000,
-          "v_f_ramp": 333.333,
-          "v_f_retract": 333.333,
-          "v_c": 78.5398163397448,
-          "f_n": 0.0666666,
-          "n": 5000,
-          "v_f_plunge": 333.333,
-          "v_f_leadIn": 1000
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 78.5398163397448, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
         }
-      },
+      }, 
       "geometry": {
-        "SIG": 0,
-        "tip-length": 0,
-        "LB": 30,
-        "SFDM": 6,
-        "NOF": 4,
-        "LCF": 16,
-        "TP": 0,
-        "RE": 0,
-        "CSP": true,
-        "tip-offset": 0,
-        "TA": 0,
-        "tip-diameter": 5,
-        "OAL": 60,
-        "shoulder-length": 16,
-        "DC": 5
-      },
+        "CSP": true, 
+        "DC": 5, 
+        "LB": 30, 
+        "LCF": 16, 
+        "NOF": 4, 
+        "OAL": 60, 
+        "RE": 0, 
+        "SFDM": 6, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 16, 
+        "tip-diameter": 5, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
       "description": "5x6"
+    }, 
+    {
+      "BMC": "carbide", 
+      "GRADE": "Mill Generic", 
+      "description": "Heikin 8mm carbiditer\u00e4", 
+      "geometry": {
+        "CSP": true, 
+        "DC": 8, 
+        "LB": 31, 
+        "LCF": 11, 
+        "NOF": 4, 
+        "OAL": 31, 
+        "RE": 0, 
+        "SFDM": 8, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 16, 
+        "tip-diameter": 8, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
+      "guid": "1cc421eb-5795-43b1-9f78-a5ab28d6f260", 
+      "holder": {
+        "description": "ER20", 
+        "guid": "731b9e55-02a1-4d04-aa42-bddf3601d163", 
+        "last_modified": 1457544174404, 
+        "product-id": "BT40-ER20-100L", 
+        "segments": [
+          {
+            "height": 2.7178, 
+            "lower-diameter": 22.479, 
+            "upper-diameter": 31.877
+          }, 
+          {
+            "height": 27, 
+            "lower-diameter": 34, 
+            "upper-diameter": 34
+          }, 
+          {
+            "height": 1.016, 
+            "lower-diameter": 31.877, 
+            "upper-diameter": 29.845
+          }, 
+          {
+            "height": 45.7, 
+            "lower-diameter": 36, 
+            "upper-diameter": 36
+          }, 
+          {
+            "height": 1.524, 
+            "lower-diameter": 36, 
+            "upper-diameter": 39
+          }, 
+          {
+            "height": 1, 
+            "lower-diameter": 61, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 4.4, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 2.887, 
+            "lower-diameter": 63, 
+            "upper-diameter": 53
+          }, 
+          {
+            "height": 4.226, 
+            "lower-diameter": 53, 
+            "upper-diameter": 53
+          }, 
+          {
+            "height": 2.887, 
+            "lower-diameter": 53, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 8.6, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 1, 
+            "lower-diameter": 63, 
+            "upper-diameter": 61
+          }, 
+          {
+            "height": 2, 
+            "lower-diameter": 44.45, 
+            "upper-diameter": 44.45
+          }
+        ], 
+        "type": "holder", 
+        "unit": "millimeters", 
+        "vendor": ""
+      }, 
+      "last_modified": 1457544249802, 
+      "post-process": {
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "product-id": "", 
+      "start-values": {
+        "*": {
+          "f_n": 0.0666666, 
+          "f_z": 0.05, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 125.663706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
+        }
+      }, 
+      "type": "flat end mill", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "BMC": "ceramics", 
+      "GRADE": "Mill Generic", 
+      "description": "BAP-400R-80-27-5T", 
+      "geometry": {
+        "CSP": true, 
+        "DC": 80, 
+        "LB": 50, 
+        "LCF": 14, 
+        "NOF": 5, 
+        "OAL": 50, 
+        "RE": 0, 
+        "SFDM": 60, 
+        "SIG": 0, 
+        "TA": 0, 
+        "TP": 0, 
+        "shoulder-length": 22, 
+        "tip-diameter": 80, 
+        "tip-length": 0, 
+        "tip-offset": 0
+      }, 
+      "guid": "37212e4a-3c1b-446b-beb7-2c10e0f1d827", 
+      "holder": {
+        "description": "Tuurnakiinnike", 
+        "guid": "8332297a-43f2-4478-95cc-53d801b41024", 
+        "last_modified": 1457544391515, 
+        "product-id": "BT40-SMS27-45", 
+        "segments": [
+          {
+            "height": 16, 
+            "lower-diameter": 50, 
+            "upper-diameter": 50
+          }, 
+          {
+            "height": "1", 
+            "lower-diameter": 50, 
+            "upper-diameter": 54
+          }, 
+          {
+            "height": 1, 
+            "lower-diameter": 61, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 4.4, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 2.887, 
+            "lower-diameter": 63, 
+            "upper-diameter": 53
+          }, 
+          {
+            "height": 4.226, 
+            "lower-diameter": 53, 
+            "upper-diameter": 53
+          }, 
+          {
+            "height": 2.887, 
+            "lower-diameter": 53, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 8.6, 
+            "lower-diameter": 63, 
+            "upper-diameter": 63
+          }, 
+          {
+            "height": 1, 
+            "lower-diameter": 63, 
+            "upper-diameter": 61
+          }, 
+          {
+            "height": 2, 
+            "lower-diameter": 44.45, 
+            "upper-diameter": 44.45
+          }
+        ], 
+        "type": "holder", 
+        "unit": "millimeters", 
+        "vendor": ""
+      }, 
+      "last_modified": 1457544421547, 
+      "post-process": {
+        "break-control": false, 
+        "comment": "", 
+        "diameter-offset": 1, 
+        "length-offset": 1, 
+        "manual-tool-change": false, 
+        "number": 1, 
+        "tool-coolant": "flood"
+      }, 
+      "product-id": "", 
+      "start-values": {
+        "*": {
+          "f_n": 0.0666666, 
+          "f_z": 0.04, 
+          "n": 5000, 
+          "n_ramp": 5000, 
+          "v_c": 1256.63706143592, 
+          "v_f": 1000, 
+          "v_f_leadIn": 1000, 
+          "v_f_leadOut": 1000, 
+          "v_f_plunge": 333.333, 
+          "v_f_ramp": 333.333, 
+          "v_f_retract": 333.333
+        }
+      }, 
+      "type": "face mill", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-B16-45 1-13mm drill chuck", 
+      "guid": "708ecff8-603c-4592-a3be-b86d828b7c15", 
+      "last_modified": 1457547510463, 
+      "product-id": "BT40-B16-45 1-13MM drill chuck", 
+      "segments": [
+        {
+          "height": 12.8, 
+          "lower-diameter": 14.5, 
+          "upper-diameter": 22
+        }, 
+        {
+          "height": 20, 
+          "lower-diameter": 40, 
+          "upper-diameter": 51
+        }, 
+        {
+          "height": 70, 
+          "lower-diameter": 51, 
+          "upper-diameter": 51
+        }, 
+        {
+          "height": 19.4, 
+          "lower-diameter": 30, 
+          "upper-diameter": 30
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 30, 
+          "upper-diameter": 36
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-ER20-100L", 
+      "guid": "731b9e55-02a1-4d04-aa42-bddf3601d163", 
+      "last_modified": 1457545777585, 
+      "product-id": "BT40-ER20-100L", 
+      "segments": [
+        {
+          "height": 2.7178, 
+          "lower-diameter": 22.479, 
+          "upper-diameter": 31.877
+        }, 
+        {
+          "height": 27, 
+          "lower-diameter": 34, 
+          "upper-diameter": 34
+        }, 
+        {
+          "height": 1.016, 
+          "lower-diameter": 31.877, 
+          "upper-diameter": 29.845
+        }, 
+        {
+          "height": 45.7, 
+          "lower-diameter": 36, 
+          "upper-diameter": 36
+        }, 
+        {
+          "height": 1.524, 
+          "lower-diameter": 36, 
+          "upper-diameter": 39
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-SMS27-45", 
+      "guid": "8332297a-43f2-4478-95cc-53d801b41024", 
+      "last_modified": 1457545808246, 
+      "product-id": "BT40-SMS27-45", 
+      "segments": [
+        {
+          "height": 16, 
+          "lower-diameter": 50, 
+          "upper-diameter": 50
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 50, 
+          "upper-diameter": 54
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-MTA2-60", 
+      "guid": "9764ad80-df3c-447e-9447-77f41ef13b35", 
+      "last_modified": 1457545771437, 
+      "product-id": "BT40-MTA2-60", 
+      "segments": [
+        {
+          "height": 32.6, 
+          "lower-diameter": 32, 
+          "upper-diameter": 32
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-B16-90 3/32-1/2\" drill chuck", 
+      "guid": "99d0e092-40d0-41c4-ae99-72dd803abba1", 
+      "last_modified": 1457546785283, 
+      "product-id": "BT40-B16-90", 
+      "segments": [
+        {
+          "height": 15, 
+          "lower-diameter": 8, 
+          "upper-diameter": 14.5
+        }, 
+        {
+          "height": 4, 
+          "lower-diameter": 24, 
+          "upper-diameter": 31.3
+        }, 
+        {
+          "height": 11.7, 
+          "lower-diameter": 31.3, 
+          "upper-diameter": 31.3
+        }, 
+        {
+          "height": 36.2, 
+          "lower-diameter": 42.5, 
+          "upper-diameter": 42.5
+        }, 
+        {
+          "height": 10, 
+          "lower-diameter": 42.5, 
+          "upper-diameter": 30
+        }, 
+        {
+          "height": 64.2, 
+          "lower-diameter": 30, 
+          "upper-diameter": 30
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "SK MT1", 
+      "guid": "b0afced8-5440-429f-bebf-3b99a424d999", 
+      "last_modified": 1457545966764, 
+      "product-id": "SK 40-1-50 JIS B6339 AD", 
+      "segments": [
+        {
+          "height": 23, 
+          "lower-diameter": 25, 
+          "upper-diameter": 25
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-C32-105", 
+      "guid": "b68e3f9b-d48a-4891-be1a-5638adae4874", 
+      "last_modified": 1457545842911, 
+      "product-id": "BT40-C32-105", 
+      "segments": [
+        {
+          "height": 4, 
+          "lower-diameter": 55, 
+          "upper-diameter": 63.5
+        }, 
+        {
+          "height": 33, 
+          "lower-diameter": 63.5, 
+          "upper-diameter": 69
+        }, 
+        {
+          "height": 28, 
+          "lower-diameter": 69, 
+          "upper-diameter": 69
+        }, 
+        {
+          "height": 12.3, 
+          "lower-diameter": 55, 
+          "upper-diameter": 55
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-MTA1-45", 
+      "guid": "c1ee79d9-6285-49bd-a56b-0d16e6e50bd4", 
+      "last_modified": 1457545759559, 
+      "product-id": "BT40-MTA1-45", 
+      "segments": [
+        {
+          "height": 18, 
+          "lower-diameter": 25, 
+          "upper-diameter": 25
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "SK 20mm kiristin", 
+      "guid": "dc1d2634-023c-4d7e-ab72-a2a1a0a911cd", 
+      "last_modified": 1457546203061, 
+      "product-id": "SK 40-20-63 JIS B6339 AD/B", 
+      "segments": [
+        {
+          "height": 14, 
+          "lower-diameter": 38, 
+          "upper-diameter": "52"
+        }, 
+        {
+          "height": 22.2, 
+          "lower-diameter": 52, 
+          "upper-diameter": 52
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
+    }, 
+    {
+      "description": "BT40-ER32-M16-70L", 
+      "guid": "f4d4a5aa-fc50-454e-a8b3-2fda14c68a25", 
+      "last_modified": 1457545784585, 
+      "product-id": "BT40-ER32-M16-70L", 
+      "segments": [
+        {
+          "height": 2, 
+          "lower-diameter": 39, 
+          "upper-diameter": 49
+        }, 
+        {
+          "height": 42, 
+          "lower-diameter": 49, 
+          "upper-diameter": 49
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 61, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 4.4, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 63, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 4.226, 
+          "lower-diameter": 53, 
+          "upper-diameter": 53
+        }, 
+        {
+          "height": 2.887, 
+          "lower-diameter": 53, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 8.6, 
+          "lower-diameter": 63, 
+          "upper-diameter": 63
+        }, 
+        {
+          "height": 1, 
+          "lower-diameter": 63, 
+          "upper-diameter": 61
+        }, 
+        {
+          "height": 2, 
+          "lower-diameter": 44.45, 
+          "upper-diameter": 44.45
+        }
+      ], 
+      "type": "holder", 
+      "unit": "millimeters", 
+      "vendor": ""
     }
-  ],
+  ], 
   "version": 1
 }
