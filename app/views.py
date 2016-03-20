@@ -23,8 +23,10 @@ def index():
 		return render_template('index.html', nav="main", gcode=request.form['gcode'], error="Lotta is not ready. Hit PRGM, I/O, Read.")
 
 	try:
-		# TODO: Maybe this should be dynamic and line by line?
-		serialport.write(data)
+		for line in data:
+			serialport.write(line)
+			if not serialport.getCD():
+				return render_template('index.html', nav="main", gcode=request.form['gcode'], error="Lotta aborted the transfer")
 	except serial.SerialException as e:
 		return render_template('index.html', nav="main", gcode=request.form['gcode'], error="Serial port error, try again (%s)" % e)
 	except AttributeError as e:
