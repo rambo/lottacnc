@@ -3,6 +3,7 @@ import os,sys
 
 import app
 with open(sys.argv[1]) as fp:
+  raw_input("Get lotta ready, then press enter")
   print "Sending %s" % sys.argv[1]
   lineno=1
 
